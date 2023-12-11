@@ -1,6 +1,6 @@
 <?php
     class DbConnect {
-        private $server = '/opt/lampp/var/mysql/mysql.sock';
+        private $server = 'localhost';
         private $dbname = 'crudUser';
         private $user = 'root';
         private $pass = '';
