@@ -15,7 +15,7 @@ export default function ListUser() {
     const handleSubmit = (event) => {
         event.preventDefault();
  
-        axios.post('http://localhost/apis/crudUser/api/user/save', inputs).then(function(response){
+        axios.post('http://localhost/Projets/PHP/userCrudWithReactAndPhp/api/index.php/', inputs).then(function(response){
             console.log(response.data);
             navigate('/');
         });

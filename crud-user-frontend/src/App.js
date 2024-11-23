@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
     <div className="App">
-      <h1 class="page-header text-center">React CRUD (Create Read Update and Delete) with PHP MySQL</h1>
+      <h1 className="page-header text-center">React CRUD (Create Read Update and Delete) with PHP MySQL</h1>
  
       <BrowserRouter>
         <Link to="user/create" className="btn btn-success">Add New User</Link>
